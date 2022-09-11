@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Dani Andrada" />
+    <link href="./styles.css" rel="stylesheet">
+    <script> src="index.js" </script>
+  </head>
+  <body>
+  <div  class="michitema"> 
+    <input type="image" src="./michitema.png" width="150" height="150" onclick="cambiarModo()"></input>
+    <h1> Haga click sobre la imagen para cambiar el tema</h1>
+  </div>
+    <script type="text/javascript"> 
+      function cambiarModo() { 
+        var cuerpoweb = document.body; 
+        cuerpoweb.classList.toggle("oscuro"); 
+      } 
+    </script>
+
+</body>
+</html>
